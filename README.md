@@ -1,4 +1,3 @@
-
 ** USER INSTRUCTIONS **
 Fabio Bassignana BBC Count me up exercise Assignment
 14/05/2017
@@ -28,6 +27,7 @@ Frontend Page Work:
 The frontend is a page with radio buttons with name candidate, in this case 4.
 Clicking the VOTE button the page sent via javascript the request:
 http://127.0.0.1:8000/?action=add&voter=96&candidate=b
+
 http://127.0.0.1:8000/?action=showpoll
 
 the parameter "action" accept two actions: add, showpoll
